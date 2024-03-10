@@ -1,28 +1,18 @@
 [
   {
     "kind": "column",
-    "name": "URLPreview",
-    "description": "Extracts a substring out of a string. Both start and end indexes are optional. The end index is exclusive.",
-    "author": "Mark Probst <mark@glideapps.com>",
+    "name": "CurrencyPrice",
+    "description": "Returns price of given crypt currency",
+    "author": "Oleksandr Koryttsev <o.koryttsev@gmail.com>",
     "params": [
       {
-        "name": "url",
-        "displayName": "URL",
+        "name": "code",
+        "displayName": "Currency Code",
         "type": "string"
       },
-      {
-        "name": "start",
-        "displayName": "Start index",
-        "type": "number"
-      },
-      {
-        "name": "end",
-        "displayName": "End index",
-        "type": "number"
-      }
     ],
     "result": {
-      "type": "string"
+      "type": "number"
     }
   }
 ]
